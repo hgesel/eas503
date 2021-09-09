@@ -135,6 +135,11 @@ def convert_celsius():
 
 - Go Over: https://pyformat.info/
 
+Python documentation:
+- [https://docs.python.org/3/library/stdtypes.html#str](https://docs.python.org/3/library/stdtypes.html#str)
+- [https://docs.python.org/3/library/string.html#format-string-syntax](https://docs.python.org/3/library/string.html#format-string-syntax)
+- [https://docs.python.org/3/reference/lexical_analysis.html#f-strings](https://docs.python.org/3/reference/lexical_analysis.html#f-strings)
+
 ```python
 class_number = 'EAS503'
 class_size = 113
