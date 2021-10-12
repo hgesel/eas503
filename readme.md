@@ -23,6 +23,49 @@
 - Project (1) -- 20%
 - No final!
 
+### Midterm Grade
+
+```python
+#%%
+# midterm grade
+def average_normalized_score(hw1, hw2, hw3):
+    """ Return average normalized score in range 0 to 100. Every homework is normalized to 100.
+    hw1 - max score 116, hw2 - max score 100, hw3 - max score 98,
+    """
+    hw1_norm = 100 * hw1 / 116
+    hw2_norm = hw2
+    hw3_norm = 100 * hw3 / 98
+    avg_score = (hw1_norm + hw2_norm + hw3_norm) / 3
+    return avg_score
+
+def get_letter_grade(score):
+    """Return letter grade based on 100-normalized score"""
+    score=int(round(score))
+    if score >= 95:
+        return "A"
+    elif score >= 90:
+        return "A-"
+    elif score >= 87:
+        return "B+"
+    elif score >= 83:
+        return "B"
+    elif score >= 80:
+        return "B-"
+    elif score >= 77:
+        return "C+"
+    elif score >= 73:
+        return "C"
+    elif score >= 70:
+        return "C-"
+    elif score >= 67:
+        return "D+"
+    elif score >= 63:
+        return "D"
+    elif score >= 60:
+        return "D-"
+    else:
+        return "F"
+```
 
 ## Homework Dates (Tentative)
 - Homework will be posted by Sundays @ 11:59 PM EST 
@@ -32,19 +75,19 @@
 - Homework 1  -- release date: 9/12/2021; due 9/19/2021
 - Homework 2  -- release date: 9/19/2021; due 9/26/2021
 - Homework 3  -- release date: 9/26/2021; due 10/10/2021
-- Homework 4  -- release date: 10/3/2021; due 10/17/2021
+- Homework 4  -- release date: 10/10/2021; due 10/17/2021
 - Homework 5  -- release date: 10/24/2021; due 10/31/2021 
-- Homework 6  -- release date: 10/31/2021; due 10/31/2021
-- Homework 7  -- release date: 11/7/2021; due 11/14/2021
-- Homework 8  -- release date: 12/5/2021; due 12/12/2021
-- Homework 9  -- release date: 12/10/2021; due 12/15/2021
+- Homework 6  -- release date: 10/31/2021; due 11/7/2021
+- Homework 7  -- release date: 11/21/2021; due 11/28/2021
+- Homework 8  -- release date: 11/28/2021; due 12/5/2021
+- Homework 9  -- release date: 12/10/2021; due 12/20/2021
 
 
 ## Lab Dates (Tentative)
 - Labs will be due on the date listed @ 11:59 PM EST
 - No late labs will be accepted, not even for partial credit
-- Lab 1 -- release date: 10/10/2021; due 10/24/2021
-- Lab 2 -- release date: 11/14/2021; due 11/30/2021
+- Lab 1 -- release date: 10/17/2021; due 10/31/2021
+- Lab 2 -- release date: 11/7/2021; due 11/21/2021
 
 ## Project Dates (Tentative)
 - 10/18/2021 -- Form groups on UB Learns
