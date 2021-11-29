@@ -79,8 +79,8 @@ def get_letter_grade(score):
 - Homework 5  -- release date: 10/24/2021; due 10/31/2021 
 - Homework 6  -- release date: 10/31/2021; due 11/7/2021
 - Homework 7  -- release date: 11/21/2021; due 11/28/2021
-- Homework 8  -- release date: 11/28/2021; due 12/5/2021
-- Homework 9  -- release date: 12/10/2021; due 12/20/2021
+- Homework 8  -- release date: 12/02/2021; due 12/12/2021
+- Homework 9  -- release date: 12/09/2021; due 12/19/2021
 
 
 ## Lab Dates (Tentative)
@@ -92,6 +92,6 @@ def get_letter_grade(score):
 ## Project Dates (Tentative)
 - 10/18/2021 -- Form groups on UB Learns
 - 11/7/2021 -- Submit project description on UB Learns
-- 11/29/2021 -- Submit preliminary report on UB Learns
+- 12/04/2021 -- Submit preliminary report on UB Learns
 - 12/10/2021 -- Submit video presentation, final report and code
 - 12/15/2021 -- Watch 5 other presentation and provide feedback
