@@ -444,7 +444,12 @@ Ref: https://www.kaggle.com/syedmubarak/pandas-75-exercises-with-solutions
 
 
 ## General Machine Learning Concept
-- Simplified: in machine learning, a computer is trained to classify new data. Think of it as an input-output device that takes in a number of inputs, and based on the pattern of these inputs, determine the most likely class associated with that data. There two main types of learning strategies. 1) Supervised learning where you train the machine using data for which the correct class is known. 2) Unsupervised learning where the classifier itself tries to find patterns within the input data itself. (Biosignal and Medical Image Processing John Semmlow) 
+- Simplified: in machine learning, a computer is trained to classify new data. 
+Think of it as an input-output device that takes in a number of inputs, and 
+based on the pattern of these inputs, determine the most likely class associated 
+with that data. There two main types of learning strategies. 
+  1) Supervised learning where you train the machine using data for which the correct class is known.
+  2) Unsupervised learning where the classifier itself tries to find patterns within the input data itself. (Biosignal and Medical Image Processing John Semmlow) 
 - Classification vs Regression (prediction) 
 
 ## General Outline of Machine Learning
@@ -481,7 +486,7 @@ Ref: https://www.kaggle.com/syedmubarak/pandas-75-exercises-with-solutions
       - Broadcasting -- manipulate multiple values at once
   - Pandas - Uses Numpy arrays as the underlying structure. Good for analyzing tabular data
   - Scipy (scientific python)- provides libraries for scientific computing, including: integration, interpolation, signal processing, linear algebra, statistics. Also uses Numpy infrastructure
-  - Scikit-learn - provides a collection of machine-learning algorithms that use Numy and Scipy 
+  - Scikit-learn - provides a collection of machine-learning algorithms that use Numpy and Scipy 
     - Most used Python library for machine-learning
       - regression
       - classification
@@ -557,8 +562,9 @@ Ref: https://www.kaggle.com/syedmubarak/pandas-75-exercises-with-solutions
 
 ### Splitting Data
 - It is common to split data into training and testing samples. 
-- Usually you do 90/10 or 80/20. 
+- Usually you do 90/10 or 80/20 or 75/25 or 60/40. 
 - The splitting has to be random
+- Check that distribution features
 - K-Cross-fold validation -- split data K times
 
 ### Linear Regression
