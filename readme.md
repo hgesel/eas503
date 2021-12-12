@@ -92,5 +92,5 @@ def get_letter_grade(score):
 - 10/18/2021 -- Form groups on UB Learns
 - 11/7/2021 -- Submit project description on UB Learns
 - 12/04/2021 -- Submit preliminary report on UB Learns
-- 12/15/2021 -- Submit video presentation
+- 12/17/2021 -- Submit video presentation
 - 12/20/2021 -- Watch 5 other presentation and provide feedback, final report and code
